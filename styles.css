@@ -120,20 +120,40 @@ p {
     margin-bottom: 10px;
 }
 
-#hobbies {
-    position: relative;
-    min-height: 220px;
+header {
+    border-bottom: 2px solid #27272a;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 #my-image {
-    position: absolute;
-    top: 0;
-    right: 0;
     width: 140px;
     height: 140px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 0 1px 2px black;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #my-image {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 .sidebar-box {
