@@ -120,13 +120,17 @@ p {
     margin-bottom: 10px;
 }
 
+#hobbies {
+    position: relative;
+}
+
 #my-image {
-    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    float: right;
-    margin: 0 0 20px 20px;
     border-radius: 8px;
     box-shadow: 0 0 1px 2px black;
 }
