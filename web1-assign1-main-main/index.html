@@ -4,172 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitch Georgeoff | Portfolio</title>
-    <style>
-        /* Global Reset & Tactical/Industrial Dark Theme */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #121214;
-            color: #e4e4e7;
-            line-height: 1.6;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 1050px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        /* Header / Hero Section */
-        header {
-            border-bottom: 2px solid #27272a;
-            padding-bottom: 30px;
-            margin-bottom: 40px;
-        }
-
-        h1 {
-            font-size: 2.8rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #ffffff;
-            margin-bottom: 5px;
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            color: #a1a1aa;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* Grid Layout for Content */
-        .grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 40px;
-        }
-
-        @media (max-width: 768px) {
-            .grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Left Column: Profile & Content */
-        h2 {
-            font-size: 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #ffffff;
-            margin-bottom: 20px;
-            border-left: 4px solid #a1a1aa;
-            padding-left: 10px;
-        }
-
-        p {
-            margin-bottom: 20px;
-            color: #d4d4d8;
-            font-size: 1.05rem;
-        }
-
-        /* Right Column: Skills & Toolkits */
-        .sidebar-box {
-            background-color: #18181b;
-            border: 1px solid #27272a;
-            padding: 25px;
-            border-radius: 4px;
-            margin-bottom: 25px;
-        }
-
-        .sidebar-box h3 {
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 15px;
-            color: #ffffff;
-        }
-
-        .tag-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            list-style: none;
-        }
-
-        .tag-list li {
-            background-color: #27272a;
-            color: #e4e4e7;
-            padding: 6px 12px;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-            border-radius: 3px;
-        }
-
-        /* Footer / Links */
-        footer {
-            margin-top: 60px;
-            padding-top: 20px;
-            border-top: 1px solid #27272a;
-            text-align: center;
-            font-size: 0.9rem;
-            color: #71717a;
-        }
-
-        footer a {
-            color: #e4e4e7;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<body>
     <div class="container">
         <header>
-            <h1>Mitch Georgeoff</h1>
-            <div class="subtitle">Interactive Media Designer & AV Technician</div>
+            <div class="header-left">
+                <h1 class="site-title">Mitch Georgeoff</h1>
+                <div class="subtitle">Interactive Media Designer & AV Technician, Rigger</div>
+            </div>
+            <img id="my-image" src="images/mitch-portrait.jpg" alt="Portrait of Mitch Georgeoff">
+            <nav>
+                <ul class="site-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
         </header>
 
         <div class="grid">
-            
             <main>
-                <section>
+                <section id="about">
                     <h2>About Me</h2>
                     <p>
-                        Based in Ottawa and Hamilton, I am an Interactive Media Design student at Algonquin College with a robust, decade-long professional background as an Audio Visual Technician and Rigger. My experience ranges from complex ground and down rigging installations to live event production.
+                        Based in Ottawa and Hamilton, I am an Interactive Media Design student at Algonquin College with a decade-long professional background as an Audio Visual Technician and Rigger. My experience ranges from complex ground and down rigging installations to live event production.
                     </p>
                     <p>
-                        My current work bridges the physical and hands-on production expertise with modern digital creation, photography, video editing, and <UX>
-                        <UI></UI> design. 
+                        My current work bridges the physical and hands-on production expertise with modern digital creation, photography, video editing, and UX/UI design.
                     </p>
                     <p>
                         Whether capturing imagery behind the lens, deploying large-scale technical setups, or drafting clean code for interactive web environments, I build functional, high-impact visual experiences.
                     </p>
                 </section>
-                <body>
 
-<h2>My Hobbies & Interests</h2>
-<ul>
-  <li>Travel</li>
-  <li>Food and drink</li>
-  <li>Gritty from the Philadelphia Flyers</li>
-  <li>Berlin and Belgrade nightlife</li>
-
-<img src="images/PXL_20260319_151134065.PORTRAIT.jpg"
-
+                <section id="hobbies">
+                    <h2>My Hobbies & Interests</h2>
+                    <ul class="hobbies-list">
+                        <li>Travel</li>
+                        <li>Food and drink</li>
+                        <li>Gritty from the Philadelphia Flyers</li>
+                        <li>Nightlife</li>
+                    </ul>
+                </section>
             </main>
 
-            <aside>
+            <aside id="skills">
                 <div class="sidebar-box">
                     <h3>Media & Design</h3>
                     <ul class="tag-list">
@@ -192,11 +72,11 @@
                     </ul>
                 </div>
             </aside>
-
         </div>
 
         <footer>
-            <p 2026 Mitch Georgeoff. Built for href="https://github.com" target="_blank">GitHub Pages</a>.</p>
+            <p>© 2026 Mitch Georgeoff. Built for <a href="https://github.com" target="_blank" rel="noopener">GitHub Pages</a>.</p>
         </footer>
     </div>
-    
+</body>
+</html>

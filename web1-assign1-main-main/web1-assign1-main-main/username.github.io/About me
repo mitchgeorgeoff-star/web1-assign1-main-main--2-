@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 1</title>
+</head> About me By Mitch Georgeoff
+<body>
+
+    <header>
+        <h1>Mitch Georgeoff</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <article>
+            <h2>About Me</h2>
+            
+            <p>
+                Welcome to my page! I am a dedicated professional working in the complex world of entertainment production, specializing in arena rigging and corporate <abbr title="Audio Visual">AV</abbr> systems where precision, physics, and safety collide. I am currently bridging my field experience into Interactive Media Design, aiming to seamlessly blend technical production with digital design at major venues.
+            </p>
+        
+            <p>
+                Life has been a whirlwind lately with my recent move, but settling back into Ottawa has been an incredible experience. Balancing production shows here and in Montreal while diving headfirst into my 1<sup>st</sup> semester at college is a major juggling act, but I am finding my rhythm. Continuous growth is <em>absolutely essential</em> as I map out this new career path, and I am highly motivated to bring my skills to fresh industry projects.
+            </p>        
+        </article>
+
+        <hr>
+
+        <section>
+            <h3>Inspirational Quote</h3>
+            <figure>
+                <blockquote>
+                    "We're having too good a time today, we ain't thinking about tomorrow."
+                </blockquote>
+                <figcaption>— <cite>John Dillinger</cite></figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer> 2026 Mitch Georgeoff. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About%20me.html">About Me</a></li>
+    <li><a href="Contact.html">Contact</a></li>
