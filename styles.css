@@ -1,13 +1,13 @@
 :root {
-    --bg: #050001;
-    --panel: rgba(8, 10, 12, 0.96);
-    --panel-soft: rgba(16, 18, 22, 0.96);
-    --text: #f5f4f1;
-    --muted: #9a9a9a;
-    --accent: #c72b2b;
-    --accent-soft: #3d1919;
-    --metal: #4f5054;
-    --border: rgba(255, 255, 255, 0.08);
+    --bg: #1b120d;
+    --panel: rgba(45, 30, 25, 0.96);
+    --panel-soft: rgba(58, 40, 32, 0.96);
+    --text: #f9f0e8;
+    --muted: #d8bca3;
+    --accent: #d9774a;
+    --accent-soft: #6d3c2a;
+    --metal: #b98964;
+    --border: rgba(255, 214, 180, 0.12);
     --gothic: Georgia, 'Times New Roman', serif;
 }
 
@@ -22,8 +22,8 @@ body {
     font-size: 18px;
     line-height: 1.75;
     color: var(--text);
-    background: radial-gradient(circle at top left, rgba(255,255,255,0.03), transparent 18%),
-                linear-gradient(180deg, #050001 0%, #020101 100%);
+    background: radial-gradient(circle at top left, rgba(217, 119, 74, 0.18), transparent 18%),
+                linear-gradient(180deg, #201611 0%, #120d0b 100%);
     min-height: 100vh;
 }
 
@@ -195,6 +195,7 @@ body {
     height: 350px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 22px 50px rgba(0, 0, 0, 0.35);
+    filter: none;
 }
 
 .top-nav {
@@ -291,7 +292,7 @@ body {
     object-fit: cover;
     height: 280px;
     border: 0;
-    filter: grayscale(100%) contrast(1.05) brightness(0.95);
+    filter: none;
 }
 
 .gallery-copy {
