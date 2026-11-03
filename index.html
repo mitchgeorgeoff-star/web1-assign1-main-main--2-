@@ -4,78 +4,184 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitch Georgeoff | Portfolio</title>
+    <meta name="description" content="Interactive Media & Live Production Specialist portfolio for Mitch Georgeoff.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="header-left">
-                <h1 class="site-title">Mitch Georgeoff</h1>
-                <div class="subtitle">Interactive Media Designer & AV Technician, Rigger</div>
+        <header class="hero">
+            <div class="hero-copy">
+                <div class="eyebrow">Interactive Media &amp; Live Production Specialist</div>
+                <h1>Mitchell William Georgeoff</h1>
+                <p class="hero-text">Ottawa, ON | mitchgeorgeoff@gmail.com | linkedin.com/in/mitchgeorgeoff</p>
+                <p class="hero-subtext">Technical specialist with 9+ years across live concert rigging, corporate AV, and digital design</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="https://www.linkedin.com/in/mitchgeorgeoff" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a class="btn btn-secondary" href="#projects">Projects</a>
+                    <a class="btn btn-link" href="#contact">Contact</a>
+                </div>
             </div>
-            <img id="my-image" src="images/PXL_20260319_151134065.PORTRAIT.jpg" alt="Portrait of Mitch Georgeoff">
-            <nav>
-                <ul class="site-nav">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                </ul>
-            </nav>
+
+            <div class="hero-media">
+                <img src="images/PXL_20261024_032737106.jpg" alt="Cover image for Mitch Georgeoff portfolio">
+            </div>
         </header>
 
-        <div class="grid">
+        <section class="profile-band" aria-label="Profile summary">
+            <div class="portrait-frame">
+                <img class="profile-thumb" src="web1-assign1-main-main/images/mitch-portrait.jpg" alt="Portrait of Mitch Georgeoff">
+            </div>
+
+            <div class="profile-name-wrap">
+                <div class="profile-pill">MITCHELL WILLIAM GEORGEOFF</div>
+                <p class="profile-meta">Interactive Media &amp; Live Production Specialist</p>
+                <p class="profile-address">• Ottawa, ON • Montreal, QC • Hamilton, ON</p>
+                <div class="profile-actions">
+                    <span class="profile-stat">Rigging • Live Production • AV</span>
+                    <a class="btn-link-lined" href="https://www.linkedin.com/in/mitchgeorgeoff" target="_blank" rel="noreferrer">linkedin.com/in/mitchgeorgeoff</a>
+                </div>
+            </div>
+        </section>
+
+        <nav class="top-nav" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+        </nav>
+
+        <div class="content-grid">
             <main>
-                <section id="about">
-                    <h2>About Me</h2>
-                    <p>
-                        Based in Ottawa and Hamilton, I am an Interactive Media Design student at Algonquin College with a decade-long professional background as an Audio Visual Technician and Rigger. My experience ranges from complex ground and down rigging installations to live event production.
-                    </p>
-                    <p>
-                        My current work bridges the physical and hands-on production expertise with modern digital creation, photography, video editing, and UX/UI design.
-                    </p>
-                    <p>
-                        Whether capturing imagery behind the lens, deploying large-scale technical setups, or drafting clean code for interactive web environments, I build functional, high-impact visual experiences.
-                    </p>
+                <section id="about" class="card about-card">
+                    <p class="headline">About</p>
+                    <p class="lead">Interactive Media &amp; Live Production Specialist</p>
+                    <p>Technical specialist with 9+ years across live concert rigging, corporate AV, and digital design. Combines hands-on staging, lighting, and aerial rigging experience with web coding, video production, and UX design to deliver high-impact audience experiences.</p>
+
+                    <div class="list-group">
+                        <h3>Education &amp; Credentials</h3>
+                        <ul>
+                            <li>Current Student, Interactive Media Design (NON - Co-op) | Algonquin College — Ottawa, ON (Expected Apr 2028)</li>
+                            <li>Core focus: Web Design (HTML/CSS/JS), UX/UI Design, 4K Video Production, Digital Photography</li>
+                            <li>Safety &amp; Machinery Certifications: Working at Heights (WAH), MOL 4-Step Health &amp; Safety, WHMIS, Scissor Lift &amp; Telescopic Boom Lift Certified</li>
+                        </ul>
+                    </div>
                 </section>
 
-                <section id="hobbies">
-                    <h2>My Hobbies & Interests</h2>
-                    <ul class="hobbies-list">
-                        <li>Travel</li>
-                        <li>Food and drink</li>
-                        <li>Gritty from the Philadelphia Flyers</li>
-                        <li>Nightlife</li>
+                <section id="experience" class="card">
+                    <h2>Professional Experience</h2>
+                    <ul class="timeline">
+                        <li>
+                            <strong>Student Services Intern (Co-op)</strong><br>
+                            Associated Designers of Canada (IATSE ADC Local 659) — Remote<br>
+                            Jun 2026 – Present
+                        </li>
+                        <li>
+                            <strong>Freelance AV &amp; Lighting Technician</strong><br>
+                            Ottawa &amp; Toronto, ON<br>
+                            Project X Productions, Soundbox, Encore Global, CCR Solutions | Sep 2018 – Present
+                        </li>
+                        <li>
+                            <strong>Stagehand Rigger &amp; Lighting Technician (Permit)</strong><br>
+                            Montreal, Ottawa &amp; GTHA<br>
+                            IATSE Locals 56 (Montreal), 129 (Hamilton), 58 (Toronto), 471 (Ottawa) | Jul 2013 – Present
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="projects" class="card">
+                    <h2>Highlights</h2>
+                    <div class="project-grid">
+                        <article class="project-card">
+                            <h3>Live Event Rigging</h3>
+                            <p>Executed arena-level motor, truss, and aerial point installations adhering strictly to zero-incident fall protection and MOL safety standards.</p>
+                        </article>
+                        <article class="project-card">
+                            <h3>Corporate AV Buildouts</h3>
+                            <p>Built and struck 50+ corporate AV systems, LED video walls, and breakout rooms on strict 2-hour turnaround windows.</p>
+                        </article>
+                        <article class="project-card">
+                            <h3>Digital Design &amp; Media</h3>
+                            <p>Uses HTML5, CSS Grid/Flexbox, JavaScript, Figma, 4K video editing, and digital photography to create polished interactive media experiences.</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h2>Field Gallery</h2>
+                    <div class="gallery-grid">
+                        <article class="gallery-card">
+                            <img src="images/20220719_224806.jpg" alt="Production rigging and stage setup">
+                            <div class="gallery-copy">
+                                <h3>Production Setup</h3>
+                                <p>Live production rigging captured during a full venue install.</p>
+                            </div>
+                        </article>
+                        <article class="gallery-card">
+                            <img src="images/20220719_224814.jpg" alt="Overhead lighting and stage setup">
+                            <div class="gallery-copy">
+                                <h3>Lighting &amp; Stage Service</h3>
+                                <p>Creative lighting and stage operations for immersive event environments.</p>
+                            </div>
+                        </article>
+                        <article class="gallery-card">
+                            <img src="images/20230928_182915.jpg" alt="Portrait and production media">
+                            <div class="gallery-copy">
+                                <h3>Visual Media</h3>
+                                <p>Documenting the production process with photography and visual storytelling.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="services" class="card">
+                    <h2>Experience Snapshot</h2>
+                    <ul class="timeline">
+                        <li>
+                            <strong>Associated Designers of Canada (ADC) &amp; IATSE Local ADC659</strong> — Coordinate remote student services, organize digital resources, and support member communications for emerging Canadian designers.
+                        </li>
+                        <li>
+                            <strong>Freelance AV &amp; Lighting Technician</strong> — Configured automated and conventional lighting fixtures, audio consoles, and distribution cabling for events up to 1,500 attendees.
+                        </li>
+                        <li>
+                            <strong>Stagehand Rigger &amp; Lighting Technician</strong> — Ran major touring concert load-ins and strikes while collaborating with road crews and master electricians to rig and test lighting and three-phase power distribution safely.
+                        </li>
                     </ul>
                 </section>
             </main>
 
-            <aside id="skills">
-                <div class="sidebar-box">
-                    <h3>Media & Design</h3>
+            <aside>
+                <section id="skills" class="card">
+                    <h2>Core Skills</h2>
                     <ul class="tag-list">
-                        <li>Photography</li>
-                        <li>Video Production</li>
-                        <li>Video Editing</li>
-                        <li>UX/UI Design</li>
-                        <li>Interactive Media</li>
+                        <li>Web Design</li>
+                        <li>HTML5</li>
+                        <li>CSS Grid</li>
+                        <li>JavaScript</li>
+                        <li>UI/UX Workflow</li>
+                        <li>Figma</li>
+                        <li>4K Video Editing</li>
+                        <li>Digital Photography</li>
+                        <li>Power Distribution</li>
+                        <li>Stage Lighting</li>
+                        <li>Arena Rigging</li>
+                        <li>Corporate AV</li>
                     </ul>
-                </div>
+                </section>
 
-                <div class="sidebar-box">
-                    <h3>Technical Production</h3>
-                    <ul class="tag-list">
-                        <li>AV Technology</li>
-                        <li>Down Rigging</li>
-                        <li>Ground Rigging</li>
-                        <li>Live Events</li>
-                        <li>Stagehand Operations</li>
-                    </ul>
-                </div>
+                <section id="contact" class="card contact-card">
+                    <h2>Contact</h2>
+                    <p>Ottawa, ON | mitchgeorgeoff@gmail.com</p>
+                    <a class="btn-link-stacked" href="https://www.linkedin.com/in/mitchgeorgeoff" target="_blank" rel="noreferrer">linkedin.com/in/mitchgeorgeoff</a>
+                </section>
             </aside>
         </div>
 
         <footer>
-            <p>© 2026 Mitch Georgeoff. Built for <a href="https://github.com" target="_blank" rel="noopener">GitHub Pages</a>.</p>
+            <p>© 2026 — Present Mitch Georgeoff. Built for <a href="https://github.com" target="_blank" rel="noopener">GitHub Pages</a>.</p>
         </footer>
     </div>
 </body>
